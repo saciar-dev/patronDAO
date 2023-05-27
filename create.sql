@@ -1,2 +1,2 @@
 
-create table IF NOT EXISTS medicamento(id int auto_increment primary key, codigoNumerico int, nombre varchar(255), laboratorio varchar(255), cantidad int, precio double);
+create table IF NOT EXISTS odontologo(id int auto_increment primary key, matricula int, nombre varchar(255), apellido varchar(255));

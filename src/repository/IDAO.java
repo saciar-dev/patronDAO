@@ -8,5 +8,4 @@ public interface IDAO<T> {
 
     public List<T> listarTodos();
 
-    public T obtener(int id);
 }
